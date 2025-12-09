@@ -40,10 +40,6 @@ El análisis utilizó una base de **datos ficticios** de una encuesta de bienest
     * `Modalidad` (Remoto, Híbrido, Presencial), `Departamento`, `Género`.
 * **Consideraciones:** El uso de datos ficticios permitió una exploración completa del proceso de análisis, desde la limpieza hasta la entrega de la estrategia.
 
-### Entregable
-
-El resultado de esta fase es el archivo de datos base: **`dataset_respuestas_100_empleados.xlsx`** (o su versión CSV).
-
 ---
 
 ## 4. Limpieza y Creación de Datos Analíticos 
@@ -56,10 +52,6 @@ Esta fase se centró en la preparación y el modelado de los datos dentro del en
 | :--- | :--- | :--- |
 | **Limpieza y Transformación** | **Excel / Power BI (Query Editor)** | Tratamiento inicial de la base de datos (coherencia de tipos, gestión de nulos) y carga en el modelo de datos. |
 | **Modelado y Métricas** | **Power BI (DAX)** | Creación de medidas (DAX) para calcular promedios, medianas, y *scores* agregados por segmento (departamento/modalidad), esenciales para la comparación de riesgos. |
-
-### Entregable
-
-El resultado de esta fase es el archivo del modelo de datos cargado en Power BI: **`Retos - Grupo 1v2.pbix`**.
 
 ---
 
@@ -91,10 +83,9 @@ Los descubrimientos clave de la analítica se ilustran visualmente en el Dashboa
 **A continuación, se presentan algunas de las visualizaciones del Dashboard que sustentan las conclusiones:**
 
 #### Visualización 1: Correlación entre Sueño y Capacidad Cognitiva
-![Descripción de la imagen 1: Muestra la correlación directa entre la calidad del sueño (eje X) y el nivel de energía/ánimo (eje Y).](ruta/a/su/imagen1.png)
-
+![Dashboard_departamento](https://github.com/RaulHamad/Big_Data_capstone/blob/main/images/dashboard_bienestar.png)
 #### Visualización 2: Riesgo de Sobrecarga por Modalidad y Departamento
-![Descripción de la imagen 2: Gráfico que compara las métricas de 'Tiempo para Desconectar' y 'Ritmo Sostenible' por modalidad (Presencial, Híbrido, Remoto) y destaca el departamento de Operaciones.](ruta/a/su/imagen2.png)
+![Dashboard_Modalidade](https://github.com/RaulHamad/Big_Data_capstone/blob/main/images/dashboard_bienestar_4.png)
 
 ---
 
@@ -114,9 +105,9 @@ Con el objetivo de maximizar el ROI de las iniciativas de bienestar, se definier
 
 | Entregable | Archivo | Descripción |
 | :--- | :--- | :--- |
-| **Dashboard Power BI** | `**[Retos - Grupo 1v2.pbix](ruta/para/Retos-Grupo-1v2.pbix)**` | Fichero de Power BI con el modelo de datos, cálculos DAX y visualizaciones interactivas. |
-| **Presentación Ejecutiva** | `**[Presentación_reto.pptx](ruta/para/Presentación_reto.pptx)**` | Diapositivas clave con el resumen ejecutivo, *insights* y plan de acción para la dirección. |
-| **Datos Ficticios** | `dataset_respuestas...csv` | Archivo CSV/Excel utilizado para la simulación y análisis del proyecto. |
+| **Dashboard Power BI** | **[Retos - Grupo 1v2.pbix](https://github.com/RaulHamad/Big_Data_capstone/blob/main/Retos%20-%20Grupo%201v2.pbix)** | Fichero de Power BI con el modelo de datos, cálculos DAX y visualizaciones interactivas. |
+| **Presentación Ejecutiva** | **[Presentación_reto.pptx](https://github.com/RaulHamad/Big_Data_capstone/blob/main/Presentaci%C3%B3n_reto.pptx)** | Diapositivas clave con el resumen ejecutivo, *insights* y plan de acción para la dirección. |
+| **Datos Ficticios** | **[dataset_respuestas_100_empleados.xlsx](https://github.com/RaulHamad/Big_Data_capstone/blob/main/dataset_respuestas_100_empleados.xlsx)** | Archivo CSV/Excel utilizado para la simulación y análisis del proyecto. |
 
 ---
 
