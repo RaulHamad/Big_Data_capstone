@@ -12,7 +12,7 @@ El análisis cruzado de datos reveló la **correlación directa** entre calidad 
 
 Este proyecto es un estudio de caso práctico enfocado en la **transformación de datos de bienestar en valor estratégico** para la empresa. El objetivo es **desarrollar una estrategia de RR.HH. basada en datos** que priorice la salud y la energía del colaborador.
 
-La dirección ha identificado que la **mitigación del riesgo de *burnout*** y la optimización de la **capacidad cognitiva** de la plantilla son cruciales para la productividad y la retención de talentos a largo plazo. El propósito es reemplazar las intervenciones de bienestar genéricas por acciones **focalizadas y con ROI mensurable**.
+La dirección ha identificado que la **mitigación del riesgo de *burnout*** y la optimización de la **capacidad cognitiva** de la plantilla son cruciales para la productividad y la retención de talentos a largo plazo. El propósito es reemplazar las intervenciones de bienestar genéricas por acciones **focalizadas y con ROI mensurable**. Para ello, el proyecto se construyó siguiendo un riguroso ciclo de Business Intelligence, desde la definición de las preguntas de negocio hasta la entrega de un plan de acción estratégica.
 
 ---
 
@@ -81,4 +81,42 @@ La principal conclusión es que el **bienestar es una inversión directa en la c
 * **1. El Factor Crítico:** La **Calidad del Sueño** es el motor principal más fuerte de `Energía`, `Concentración` y `Estado de Ánimo`.
 * **2. Riesgo de Sobrecarga:** El modelo **Presencial** y los colaboradores del departamento de **Operaciones** son los grupos más vulnerables a la falta de desconexión y al bajo `Ritmo de Trabajo Sostenible`.
 * **3. Equidad:** Se identificaron disparidades de **género** que requieren una auditoría, afectando la calidad del sueño en mujeres y el sentido del trabajo en hombres.
+
+---
+
+### Comunicación (Visualizaciones del Dashboard) 🖼️
+
+Los descubrimientos clave de la analítica se ilustran visualmente en el Dashboard Interactivo creado en Power BI.
+
+**A continuación, se presentan algunas de las visualizaciones del Dashboard que sustentan las conclusiones:**
+
+#### Visualización 1: Correlación entre Sueño y Capacidad Cognitiva
+![Descripción de la imagen 1: Muestra la correlación directa entre la calidad del sueño (eje X) y el nivel de energía/ánimo (eje Y).](ruta/a/su/imagen1.png)
+
+#### Visualización 2: Riesgo de Sobrecarga por Modalidad y Departamento
+![Descripción de la imagen 2: Gráfico que compara las métricas de 'Tiempo para Desconectar' y 'Ritmo Sostenible' por modalidad (Presencial, Híbrido, Remoto) y destaca el departamento de Operaciones.](ruta/a/su/imagen2.png)
+
+---
+
+## 6. Recomendaciones Estratégicas
+
+Con el objetivo de maximizar el ROI de las iniciativas de bienestar, se definieron tres prioridades accionables, basadas en los patrones de riesgo y correlación identificados:
+
+| Prioridad | Título de la Acción | Justificación (Insight Principal) | Métrica de Éxito |
+| :--- | :--- | :--- | :--- |
+| **1.** | **Proteger la Desconexión** (Cultura de Límites) | El riesgo de sobrecarga es alto en el modo Presencial. La desconexión es el factor más crítico para la `Recuperación Emocional`. | Reducción del 15% en los reportes de "No" en `Ritmo de Trabajo Sostenible` en los clusters de riesgo. |
+| **2.** | **Auditoría de Equidad** y Liderazgo | Las disparidades de género en métricas clave amenazan la retención y la equidad percibida. | Aumento del 10% en las puntuaciones de `Calidad del Sueño` y `Sentido del Trabajo` en los grupos identificados. |
+| **3.** | **Focalización Estratégica** de Recursos | La inversión debe ser dirigida. Intervenir directamente en **Operaciones** (con foco en Propósito y Reconocimiento). | Aumento del 20% en las puntuaciones de `Ánimo` y `Concentración` en el departamento de Operaciones. |
+
+---
+
+## 7. Entregables del Proyecto 
+
+| Entregable | Archivo | Descripción |
+| :--- | :--- | :--- |
+| **Dashboard Power BI** | `**[Retos - Grupo 1v2.pbix](ruta/para/Retos-Grupo-1v2.pbix)**` | Fichero de Power BI con el modelo de datos, cálculos DAX y visualizaciones interactivas. |
+| **Presentación Ejecutiva** | `**[Presentación_reto.pptx](ruta/para/Presentación_reto.pptx)**` | Diapositivas clave con el resumen ejecutivo, *insights* y plan de acción para la dirección. |
+| **Datos Ficticios** | `dataset_respuestas...csv` | Archivo CSV/Excel utilizado para la simulación y análisis del proyecto. |
+
+---
 
