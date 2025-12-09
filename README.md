@@ -1,3 +1,9 @@
+---
+
+# Spanish
+
+---
+
 # Business Intelligence (BI) para Gestión de Personas: Del Dato a la Decisión Estratégica en RR.HH.
 
 Este proyecto demuestra la aplicación de **Business Intelligence (BI)** en un escenario de **Gestión de Personas**. Realizado como desafío final de la formación en Big Data, el objetivo central fue transformar una base de **datos ficticios** de una encuesta de bienestar de 100 colaboradores en una herramienta de gestión estratégica para la toma de decisiones ejecutivas de RR.HH.
@@ -76,7 +82,7 @@ La principal conclusión es que el **bienestar es una inversión directa en la c
 
 ---
 
-### Comunicación (Visualizaciones del Dashboard) 🖼️
+### Comunicación (Visualizaciones del Dashboard) 
 
 Los descubrimientos clave de la analítica se ilustran visualmente en el Dashboard Interactivo creado en Power BI.
 
@@ -109,5 +115,126 @@ Con el objetivo de maximizar el ROI de las iniciativas de bienestar, se definier
 | **Presentación Ejecutiva** | **[Presentación_reto.pptx](https://github.com/RaulHamad/Big_Data_capstone/blob/main/Presentaci%C3%B3n_reto.pptx)** | Diapositivas clave con el resumen ejecutivo, *insights* y plan de acción para la dirección. |
 | **Datos Ficticios** | **[dataset_respuestas_100_empleados.xlsx](https://github.com/RaulHamad/Big_Data_capstone/blob/main/dataset_respuestas_100_empleados.xlsx)** | Archivo CSV/Excel utilizado para la simulación y análisis del proyecto. |
 
+
+
+
 ---
+
+# English
+
+---
+
+# Business Intelligence (BI) for People Management: From Data to Strategic HR Decision-Making.
+
+This project demonstrates the application of Business Intelligence (BI) in a People Management scenario. Completed as the final challenge of a Big Data training program, the central objective was to transform a fictional dataset from a wellness survey of 100 employees into a strategic management tool for executive HR decision-making.
+
+The project covered the complete analysis cycle: data treatment (in Excel), modeling and creation of an Interactive Dashboard in Power BI, and the development of an Executive Presentation focused on the insights.
+
+Cross-data analysis revealed a direct correlation between sleep quality and productivity (energy and concentration), identifying the In-Office (Presential) work model as having the highest risk of overload. Based on the findings, three strategic recommendations were defined, focusing on Resource Prioritization and Protection of Disconnection, ensuring a measurable return on investment for corporate wellness initiatives.
+
+---
+
+## 1. Introduction and Business Task
+
+This project is a practical case study focused on the transformation of wellness data into strategic value for the company. The goal is to develop a data-driven HR strategy that prioritizes employee health and energy.
+
+Management has identified that mitigating the risk of burnout and optimizing the workforce's cognitive capacity are crucial for long-term productivity and talent retention. The purpose is to replace generic wellness interventions with focused actions that have a measurable ROI. To achieve this, the project was built following a rigorous Business Intelligence cycle, from defining the business questions to delivering a strategic action plan.
+
+---
+
+## 2. Key Business Questions 
+
+To guide the analysis and ensure that the results were actionable, this project focused on answering the following strategic questions:
+
+1.  **What is the main wellness factor that directly impacts the cognitive capacity (energy, concentration, and mood) of the workforce?**
+2.  **What are the main risk clusters (by work modality or department) that show the greatest difficulty in maintaining a sustainable and balanced work pace?**
+3.  **Is there a significant disparity in wellness and workload between genders or demographic groups that necessitates an equity audit and targeted intervention?**
+4.  **Where should resources and investments in wellness initiatives be focused to guarantee the maximum Return on Investment (ROI) for the business?**
+
+---
+
+## 3. Data Preparation
+
+The analysis used a fictional dataset from a wellness survey, simulating a real-world people management scenario. The data represents the responses of 100 employees to a structured questionnaire.
+
+### Sources and Structure
+
+* **Source:** **Fictional Data** from a Wellness Survey (100 employees) for the Big Data training final challenge.
+* **Key Variables Analyzed:** he **dataset** contained 18 fields, with the most relevant being:
+    * `Sleep Quality (1-10)`, `Daily Energy Level (1-5)`, `Mood (1-5)`
+    * `Time to Disconnect (1-10)`, `Sustainable Work Pace (Yes/No)`, `Emotional Recovery (1-5)`
+    * `Modality` (Remote, Hybrid, In-Office), `Department`, `Gender`.
+* **Considerations:** The use of fictional data allowed for a complete exploration of the analysis process, from cleaning to strategic delivery.
+
+---
+
+## 4. Cleaning and Analytical Data Creation 
+
+This phase focused on preparing and modeling the data within the Power BI environment to create crucial analytical metrics.
+
+### Tools and Methodology
+
+| Primary Task | Chosen Tool | Justification |
+| :--- | :--- | :--- |
+| **Cleaning and Transformation** | **Excel / Power BI (Query Editor)** | Initial treatment of the database (type coherence, null management) and loading into the data model. |
+| **Modeling and Metrics** | **Power BI (DAX)** | Creation of measures (DAX) to calculate averages, medians, and aggregated scores by segment (department/modality), essential for risk comparison. |
+
+---
+
+## 5. Data Analysis and Insights
+
+This section consolidates the discoveries through the exploration of the Interactive Dashboard, directly answering the business questions.
+
+| Aggregation Performed | Analytical Focus | Analytical Objective |
+| :--- | :--- | :--- |
+| **Sleep Correlation** | `Sleep Quality vs. Energy / Concentration` | Measure the dependency and validate the impact of rest on productivity. |
+| **Risk by Modality** | `Time to Disconnect by Modality` | Identify the risk of overload associated with specific work models (In-Office/Hybrid). |
+| **Operational Risk** | `Wellness Metrics by Department` | Locate the risk clusters to focus intervention. |
+| **Gender Disparities** | `Sleep Quality and Sense of Purpose at Work by Gender` | Detect equity gaps and strategic misalignments. |
+
+### Key Discoveries (Answer to Business Questions)
+
+The main conclusion is that wellness is a direct investment in cognitive capacity, with risks clearly localized:
+
+* **1. The Critical Factor:** **Sleep Quality** is the strongest main driver of ´Energy´, ´Concentration´, and ´Mood´.
+* **2. Overload Risk:** The **In-Office** model and employees in the **Operations** department are the groups most vulnerable to lack of disconnection and a low ´Sustainable Work Pace´.
+* **3. Equity:** **Gender** disparities were identified, requiring an audit, affecting sleep quality in women and sense of purpose at work in men.
+
+---
+
+### Communication (Dashboard Visualizations)
+
+The key analytical discoveries are visually illustrated in the Interactive Dashboard created in Power BI.
+
+**Below are some of the Dashboard visualizations that support the conclusions:**
+
+#### Visualization 1: Correlation between Sleep and Cognitive Capacity
+![Dashboard_department](https://github.com/RaulHamad/Big_Data_capstone/blob/main/images/dashboard_bienestar.png)
+#### Visualization 2: Overload Risk by Modality and Department
+![Dashboard_Modality](https://github.com/RaulHamad/Big_Data_capstone/blob/main/images/dashboard_bienestar_4.png)
+
+---
+
+## 6. Strategic Recommendations
+
+With the goal of maximizing the ROI of wellness initiatives, three actionable priorities were defined, based on the identified risk patterns and correlations:
+
+| Priority |	Action Title |	Justification (Main Insight) |	Success Metric |
+| :--- | :--- | :--- | :--- |
+| **1.** | **Protect Disconnection** (Culture of Boundaries) | Overload risk is high in the In-Office mode. Disconnection is the most critical factor for ´Emotional Recovery´. | 15% reduction in "No" reports for Sustainable Work Pace within the risk clusters. |
+| **2.** | **Equity Audit** and Leadership | Gender disparities in key metrics threaten retention and perceived fairness. | 0% increase in ´Sleep Quality´ and ´Sense of Purpose at Work´ scores in the identified groups. |
+| **3.** | **Strategic Resource Prioritization** | Investment must be targeted. Directly intervene in **Operations** (with a focus on Purpose and Recognition). | 20% increase in ´Mood´ and ´Concentration´ scores in the Operations department. |
+
+---
+
+## 7. Project Deliverables 
+
+| Deliverable | File | Description |
+| :--- | :--- | :--- |
+| **Dashboard Power BI** | **[Retos - Grupo 1v2.pbix](https://github.com/RaulHamad/Big_Data_capstone/blob/main/Retos%20-%20Grupo%201v2.pbix)** | Power BI file with the data model, DAX calculations, and interactive visualizations. |
+| **Executive Presentation** | **[Presentación_reto.pptx](https://github.com/RaulHamad/Big_Data_capstone/blob/main/Presentaci%C3%B3n_reto.pptx)** | Key slides with the executive summary, insights, and action plan for management. |
+| **Fictional Data** | **[dataset_respuestas_100_empleados.xlsx](https://github.com/RaulHamad/Big_Data_capstone/blob/main/dataset_respuestas_100_empleados.xlsx)** | CSV/Excel file used for the project simulation and analysis. |
+
+---
+
 
